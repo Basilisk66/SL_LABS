@@ -1,0 +1,87 @@
+1. mkdir linux_lab
+
+2. cd ~/linux_lab
+   mkdir -p {backups,projects/{scripts,web/static},temp}
+
+3. tree ~/linux_lab 
+
+4. cd ~/linux_lab/projects/scripts
+   touch {main.py,config.yaml,utils.sh}
+
+5. cd ~/linux_lab/projects/web/static
+   touch {index.html,styles.css}  
+
+6. cat > index.html
+
+7. cp styles.css ~/linux_lab/temp
+   cd ~/linux_lab/temp 
+   mv styles.css old_styles.css
+
+8. mv ~/linux_lab/projects/scripts/config.yaml ~/linux_lab/temp
+
+9. cp ~/linux_lab/projects/scripts/*sh ~/linux_lab/temp
+
+10.ls -lRh --sort=size ~/linux_lab
+
+11.cd ~
+   ln ~/linux_lab/projects/scripts/main.py hard_link.txt
+
+12.cat ~/linux_lab/projects/scripts/main.py  
+
+13.echo "add text" >> hard_link.txt    
+
+14.cat ~/linux_lab/projects/scripts/main.py 
+
+15.cd ~/linux_lab/temp 
+   ln -s ~/linux_lab/projects/web/static ~/linux_lab/temp/web_link
+
+16.cd ~/linux_lab/temp/web_link
+
+17.cd ~/linux_lab 
+   tree
+
+18.tar -cf ~/linux_lab/backups/projects_backup.tar projects
+
+19.tar -gzip -c -f ~/linux_lab/backups/web_backup.tar.gz projects/web
+
+20.cd ~/linux_lab/projects/scripts   
+   zip ~/linux_lab/backups/important_files.zip main.py utils.sh
+
+21.cd ~/linux_lab 
+tar -xf backups/web_backup.tar.gz -C temp/restored_web 
+
+22.unzip -l ~/linux_lab/backups/important_files.zip
+
+23.rm -rf temp/*
+
+24.rm -rf backups/*
+
+25.Не существует к этому моменту, но rm web_link
+
+26.touch report.txt
+   cat > report.txt << ENDOFFILE        
+   heredoc> Имя пользователя: $(whoami)
+   heredoc> Имя для входа: Denis
+   heredoc> Текучий рабочий каталог: $(pwd)
+   heredoc> Мой UID, GID: $(id)
+   heredoc> ENDOFFILE
+   echo "Содержимое файла: $(ls -l ~/linux_lab/projects/scripts/)" >>report.txt
+
+27.echo "Дата и время выполнения: $(date)" >> report.txt 
+
+28.cp ~/linux_lab/report.txt ~/   
+
+29.cd ~
+   zip -r -e linux_lab_final.zip linux_lab/
+
+30.ls -lh ~/linux_lab_final.zip
+
+31.rm -r linux_lab
+
+32.unzip -P 1111 ~/linux_lab_final.zip
+
+33.cat ~/linux_lab/report.txt
+
+34.tree ~/linux_lab
+
+
