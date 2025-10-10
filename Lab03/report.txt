@@ -1,0 +1,8 @@
+Имя пользователя: denis
+Имя для входа: Denis
+Текущий рабочий каталог: /home/denis/linux_lab
+Мой UID, GID: uid=1000(denis) gid=1000(denis) groups=1000(denis),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),105(lpadmin),125(sambashare),986(vboxsf)
+Содержимое файла: total 4
+-rw-rw-r-- 2 denis denis 9 Oct  4 21:17 main.py
+-rw-rw-r-- 1 denis denis 0 Oct  4 18:39 utils.sh
+Дата и время выполнения: Sat Oct  4 10:43:46 PM +03 2025
