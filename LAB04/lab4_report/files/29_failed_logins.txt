@@ -1,0 +1,4 @@
+2025-11-02T17:12:25.592885+03:00 denis-VirtualBox dbus-daemon[582]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-11-02T17:26:19.195910+03:00 denis-VirtualBox dbus-daemon[582]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-11-02T19:37:46.236307+03:00 denis-VirtualBox dbus-daemon[582]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-11-02T20:19:47.633056+03:00 denis-VirtualBox sudo:    denis : TTY=pts/0 ; PWD=/home/denis/lab4_report ; USER=root ; COMMAND=/usr/bin/grep -i failed /var/log/auth.log

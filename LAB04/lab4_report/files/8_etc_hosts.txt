@@ -1,0 +1,5 @@
+/etc/host.conf
+/etc/hostname
+/etc/hosts
+/etc/hosts.allow
+/etc/hosts.deny

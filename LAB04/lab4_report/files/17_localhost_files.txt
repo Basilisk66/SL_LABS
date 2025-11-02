@@ -1,0 +1,16 @@
+/etc/sane.d/escl.conf:#device https://123.456.789.10:443 "HP Color LaserJet FlowMFP M578" "hack=localhost"
+/etc/sane.d/net.conf:# If you list "localhost" then your backends can be accessed either
+/etc/sane.d/net.conf:# localhost
+/etc/security/pam_env.conf:# to "localhost" rather than not being set at all
+/etc/security/pam_env.conf:#REMOTEHOST	DEFAULT=localhost OVERRIDE=@{PAM_RHOST}
+/etc/security/pam_env.conf:#NNTPSERVER	DEFAULT=localhost
+/etc/lvm/lvm.conf:	#     System IDs beginning localhost are not permitted.
+/etc/speech-dispatcher/modules/mary-generic.conf:"curl \"http://localhost:59125/process?INPUT_TEXT=`printf %s \'$DATA\'| xxd -plain | tr -d '\\n' | sed 's/\\\(..\\\)/%\\\1/g'`&INPUT_TYPE=TEXT&OUTPUT_TYPE=AUDIO&AUDIO=WAVE_FILE&LOCALE=$LANGUAGE&VOICE=$VOICE\" | sox -v $VOLUME $TMPDIR/mary-generic.wav tempo $RATE pitch $PITCH norm && $PLAY_COMMAND $TMPDIR/mary-generic.wav"
+/etc/speech-dispatcher/modules/festival.conf:#FestivalServerHost  "localhost"
+/etc/speech-dispatcher/speechd.conf:# for connections coming from localhost. If LocalhostAccessOnly is set to 0 it disables this
+/etc/speech-dispatcher/speechd.conf:#AudioNASServer "tcp/localhost:5450"
+/etc/hosts:127.0.0.1	localhost
+/etc/hosts:::1     ip6-localhost ip6-loopback
+/etc/init.d/cups:#                    make it's web interface accessible on http://localhost:631/
+/etc/pulse/client.conf:; auto-connect-localhost = no
+/etc/cups/cupsd.conf:Listen localhost:631

@@ -1,0 +1,20 @@
+2025-11-02T19:47:41.088708+03:00 denis-VirtualBox systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-11-02T19:47:41.093419+03:00 denis-VirtualBox PackageKit: daemon start
+2025-11-02T19:47:41.110800+03:00 denis-VirtualBox dbus-daemon[582]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-11-02T19:47:41.110917+03:00 denis-VirtualBox systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-11-02T19:52:04.639535+03:00 denis-VirtualBox systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2025-11-02T19:52:04.658130+03:00 denis-VirtualBox systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2025-11-02T19:52:04.658298+03:00 denis-VirtualBox systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2025-11-02T19:53:31.119123+03:00 denis-VirtualBox PackageKit: daemon quit
+2025-11-02T19:53:31.122740+03:00 denis-VirtualBox systemd[1]: packagekit.service: Deactivated successfully.
+2025-11-02T20:11:46.536366+03:00 denis-VirtualBox dbus-daemon[582]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.77' (uid=0 pid=3621 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2025-11-02T20:11:46.548350+03:00 denis-VirtualBox systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-11-02T20:11:46.550958+03:00 denis-VirtualBox PackageKit: daemon start
+2025-11-02T20:11:46.572440+03:00 denis-VirtualBox dbus-daemon[582]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-11-02T20:11:46.573025+03:00 denis-VirtualBox systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-11-02T20:16:52.118031+03:00 denis-VirtualBox PackageKit: daemon quit
+2025-11-02T20:16:52.128876+03:00 denis-VirtualBox systemd[1]: packagekit.service: Deactivated successfully.
+2025-11-02T20:17:01.454195+03:00 denis-VirtualBox CRON[3785]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-11-02T20:17:04.613752+03:00 denis-VirtualBox systemd[1]: Starting motd-news.service - Message of the Day...
+2025-11-02T20:17:04.615385+03:00 denis-VirtualBox systemd[1]: motd-news.service: Deactivated successfully.
+2025-11-02T20:17:04.615697+03:00 denis-VirtualBox systemd[1]: Finished motd-news.service - Message of the Day.

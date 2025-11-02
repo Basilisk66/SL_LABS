@@ -1,0 +1,3 @@
+denis
+/home/denis/lab4_report/files
+Linux denis-VirtualBox 6.14.0-29-generic #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Aug 14 16:52:50 UTC 2 x86_64 x86_64 x86_64 GNU/Linux

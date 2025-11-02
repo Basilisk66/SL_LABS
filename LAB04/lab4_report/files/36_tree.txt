@@ -1,0 +1,27 @@
+/home/denis/lab4_report
+├── files
+│   ├── 14_audit_report.txt
+│   ├── 16_users.txt
+│   ├── 17_localhost_files.txt
+│   ├── 18_root_binaries.txt
+│   ├── 19_large_files.txt
+│   ├── 1_info.txt
+│   ├── 21_config_files.txt
+│   ├── 24_my_processes.txt
+│   ├── 27_systemd_processes.txt
+│   ├── 28_syslog_tail.txt
+│   ├── 29_failed_logins.txt
+│   ├── 30_installed_packages.txt
+│   ├── 31_open_ports.txt
+│   ├── 36_tree.txt
+│   ├── 8_etc_hosts.txt
+│   ├── 9_recent_logs.txt
+│   ├── secret_backup.md
+│   └── secret.txt
+├── lab4_files_backup.tar.gz
+├── report.md
+└── test_search
+    ├── data1.conf
+    └── data2.conf
+
+3 directories, 22 files
